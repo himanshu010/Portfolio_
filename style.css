@@ -1,0 +1,147 @@
+.cover{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;    
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+  
+       
+}
+body{
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    background-image:url("images/cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    
+    
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 7vw;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    align-content: center;
+    line-height: 9vw;       
+}
+.cover-heading{
+    font-size: 12vw 
+}
+.cover-text{
+    padding: 0px 0px 20px
+}
+.discover{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
+}
+.about{
+    padding: 80px 40px;
+    background-image:url(https://images.pexels.com/photos/2105288/pexels-photo-2105288.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+.about-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13vw; 
+    padding: 0px 0px 20px 0px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+   
+}
+.about-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4vw;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+.about-details{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+}
+.work-head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13vw;
+    padding: 40px;
+    font-family: 'Lato', sans-serif;
+}
+.work-img{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+.card-body{
+    background-color: black;
+    font-size: 3.5vh;
+}
+.card{
+    background-color: black;
+    border-color: black;
+}
+.my-work{
+    background-image: url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: white;
+   
+}
+
+@media only screen and (max-width: 991px) {
+  
+.blackforbutton{
+    background-color: black;
+    border-radius: 15px;
+    font-size: 40px;
+}
+}
+.greyforbutton{
+    background-color: lightgrey;
+    border-radius: 15px;
+   
+}
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
