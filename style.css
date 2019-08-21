@@ -4,12 +4,7 @@
     align-content:center;
     align-items: center;    
     width: 100%;
-    height: 100vh;
-    
-    
-    
-  
-       
+    height: 100vh;      
 }
 body{
     background-color: black;
@@ -19,9 +14,7 @@ body{
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
-    
-    
-    
+ 
 }
 .text{
     display: flex;
@@ -133,15 +126,22 @@ body{
 
 
 a:link {
-  color: red;
+  color: white;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: white;
+}
+
+.social_media{
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-around;
+    size: 30px;
 }
