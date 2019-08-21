@@ -106,14 +106,6 @@ body{
    
 }
 
-@media only screen and (max-width: 991px) {
-  
-.blackforbutton{
-    background-color: black;
-    border-radius: 15px;
-    font-size: 40px;
-}
-}
 .greyforbutton{
     background-color: lightgrey;
     border-radius: 15px;
@@ -142,6 +134,24 @@ a:hover {
 .social_media{
     position: absolute;
     bottom: 0px;
-    justify-content: space-around;
+    justify-content: center;
     size: 30px;
 }
+.icon{
+    height: 10px;
+    width: 10px;
+    padding: 50px;
+    justify-content: center;
+
+}
+.container-text{
+    justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  
+    .blackforbutton{
+        background-color: black;
+        border-radius: 15px;
+        font-size: 40px;
+    }
+    }
