@@ -46,7 +46,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://1drv.ms/b/s!AqX3l4auM5mdgbFWVwYkMqPWZtL-mg?e=IXrSbx">Resume</a>
+        <a class="nav-link" href="https://1drv.ms/b/s!AqX3l4auM5mdgbFWVwYkMqPWZtL-mg?e=HLJsQJ">Resume</a>
       </li>
     </ul>
     
@@ -72,16 +72,16 @@
           </div>
           <div class="container discover">
                
-          <button type="button but" class="btn btn-light btn-default btn-circle" style="font-size: 20px;border-radius: 30px;height: 60px;width: 200px">
+          <button type="but button" class="btn btn-light btn-default btn-circle" style="font-size: 20px;border-radius: 30px;height: 60px;width: 200px" onclick="discover_more()">
                
-                    Discover more
+            Discover more
                     
           </button>
           </div>
           
           <div class="social_media">
             <a href="https://www.instagram.com/himanshu_.aswal/"><i class="fa fa-instagram icon"></i></a>
-            <a href="https://github.com/himanshu010"><i class="fa fa-github icon"></i></a>
+            <a href="https://github.com/himanshu010"><i class="fa fa-github icon" style=""></i></a>
             <!-- <a href="https://twitter.com/himanshu__aswal"><i class="fa fa-twitter icon"></i></a> -->
             <a href="https://www.linkedin.com/in/himanshu-aswal-ab75a5158/"><i class="fa fa-linkedin icon"></i></a>
             <!-- <a href="https://www.facebook.com/profile.php?id=100009031982067"><i class="fa fa-facebook-f icon"></i></a> -->
@@ -158,6 +158,12 @@
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
-    </script>       
+    </script> 
+   <script>
+    function discover_more()
+    {
+         location.href = "discover_more.html";
+    } 
+    </script>      
 </body>
 </html>

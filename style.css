@@ -33,6 +33,8 @@ body {
 .cover-text {
   padding: 0px 0px 20px;
   font-family: "Sigmar One", cursive;
+  width: 100%;
+  justify-content: center;
 }
 .discover {
   display: flex;
@@ -123,7 +125,15 @@ a:hover {
   color: orange;
   font-family: "Sigmar One", cursive;
 }
-
+.fa-instagram:hover {
+  color: magenta;
+}
+.fa-github:hover {
+  color: black;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+}
 .social_media {
   position: absolute;
   bottom: 0px;
