@@ -20,11 +20,10 @@ body {
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
-  font-size: 40px;
   color: white;
   align-content: center;
 }
-.cover-heading {
+.cover-head {
   font-size: 130px;
   width: 100%;
   justify-content: center;
@@ -35,6 +34,7 @@ body {
   font-family: "Sigmar One", cursive;
   width: 100%;
   justify-content: center;
+  font-size: 50px;
 }
 .discover {
   display: flex;
@@ -138,6 +138,7 @@ a:hover {
   position: absolute;
   bottom: 0px;
   justify-content: space-around;
+  font-size: 40px;
 }
 .icon {
   height: 10px;
@@ -148,6 +149,13 @@ a:hover {
 .container-text {
   justify-content: center;
 }
+.typewrite {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-family: "Shadows Into Light", cursive;
+}
 @media only screen and (max-width: 991px) {
   .blackforbutton {
     background-color: black;
@@ -155,10 +163,10 @@ a:hover {
     font-size: 40px;
   }
   .cover-text {
-    font-size: 20px;
-  }
-  .cover-heading {
     font-size: 40px;
+  }
+  .cover-head {
+    font-size: 60px;
   }
   .card-body {
     font-size: 40px;
@@ -175,11 +183,14 @@ a:hover {
   .about-details {
     font-size: 10px;
   }
-  .text {
-    font-size: 40px;
-  }
   .about-text {
     font-size: 25px;
     padding: 15px;
+  }
+  .cover-head {
+    font-size: 80px;
+  }
+  .typewrite {
+    font-size: 30px;
   }
 }

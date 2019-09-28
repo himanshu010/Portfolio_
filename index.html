@@ -3,7 +3,7 @@
 <head>
    
     <link
-      href="https://fonts.googleapis.com/css?family=Chilanka|Sigmar+One|Dancing+Script|Lato&display=swap"
+      href="https://fonts.googleapis.com/css?family=Chilanka|Sigmar+One|Dancing+Script|Lato|Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Portfolio</title>
     <link rel="icon" type="image/ico" href="Images/logo.png" />
+    <script src="script.js"></script> 
 </head>
 <body>
   <div class="nav1" style="display: flex; justify-content: center;">
@@ -64,13 +65,16 @@
 
   <div class="main-cover">
     <div class="cover">
-        <div class="container text">
-          <div class="row cover-heading">
-                Himanshu
-          </div>
+        
+       <div class="container text">
+          <div class="row cover-head">Himanshu</div>
           <div class="row cover-text">
-                The Journey Begins
+              The Journey Begins
+        </div>
+          <div class=" typewrite"  data-type='[ "Hi, Im Himanshu.", "I am a Full Stack Web Developer", "and a Machine-Learning Enthusiast."]'>
+              <span class="wrap"></span>
           </div>
+          
           <div class="container discover">
                
           <button type="but button" class="btn btn-light btn-default btn-circle" style="font-size: 20px;border-radius: 30px;height: 60px;width: 200px" onclick="discover_more()">
