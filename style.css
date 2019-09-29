@@ -9,10 +9,9 @@
 body {
   background-color: black;
   font-family: "Pacifico", cursive;
-  background-image: url("cover1.jpg");
+  background-image: url("Images/6.jpg");
   background-size: cover;
   width: 100%;
-  height: 100vh;
   background-attachment: fixed;
 }
 .text {
@@ -44,7 +43,7 @@ body {
 }
 .about {
   padding: 80px 40px;
-  background-image: url(https://images.pexels.com/photos/2105288/pexels-photo-2105288.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-image: url(Images/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -61,17 +60,19 @@ body {
   color: white;
   width: 100%;
 }
+
 .about-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
 }
 .about-details {
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 .work-head {
   display: flex;
@@ -80,24 +81,12 @@ body {
   font-size: 60px;
   padding: 40px;
 }
-.work-img {
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-}
-.card-body {
-  background-color: black;
-  font-size: 20px;
-}
-.card {
-  background-color: black;
-  border-color: black;
-}
 .my-work {
-  background-image: url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-image: url(Images/7.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  width: 100%;
 }
 
 .greyforbutton {
@@ -111,13 +100,13 @@ body {
 
 a:link {
   color: white;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
 }
 
 /* visited link */
 a:visited {
   color: white;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
 }
 
 /* mouse over link */
@@ -155,7 +144,57 @@ a:hover {
   justify-content: center;
   font-size: 45px;
   font-family: "Shadows Into Light", cursive;
+  color: black;
 }
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  height: 400px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: transparent;
+  margin: 20px;
+  border: 5px;
+}
+.card-text {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+}
+.card-image:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px black;
+}
+.card-image {
+  height: 300px;
+  display: flex;
+  width: 300px;
+  border-radius: 30px;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0px;
+  width: 100%;
+  font-family: "Lato";
+}
+.footer1 {
+  padding: 20px;
+}
+.footer2 {
+  padding: 20px;
+}
+
 @media only screen and (max-width: 991px) {
   .blackforbutton {
     background-color: black;
@@ -168,9 +207,7 @@ a:hover {
   .cover-head {
     font-size: 60px;
   }
-  .card-body {
-    font-size: 40px;
-  }
+
   .work-head {
     font-size: 40px;
   }
@@ -178,10 +215,7 @@ a:hover {
     font-size: 40px;
   }
   .about-text {
-    font-size: 40px;
-  }
-  .about-details {
-    font-size: 10px;
+    font-size: 30px;
   }
   .about-text {
     font-size: 25px;
