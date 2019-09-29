@@ -67,6 +67,8 @@ body {
   align-items: center;
   font-size: 40px;
   color: white;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
 }
 .about-details {
   display: flex;
