@@ -1,233 +1,241 @@
 .cover {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 body {
-  background-color: black;
-  font-family: "Pacifico", cursive;
-  background-image: url("Images/6.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+    background-image: url('Images/1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
 }
 .text {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-wrap: wrap;
-  color: white;
-  align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: white;
+    align-content: center;
 }
 .cover-head {
-  font-size: 130px;
-  width: 100%;
-  justify-content: center;
-  font-family: "Pacifico", cursive;
+    font-size: 130px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
 }
 .cover-text {
-  padding: 0px 0px 20px;
-  font-family: "Sigmar One", cursive;
-  width: 100%;
-  justify-content: center;
-  font-size: 50px;
+    padding: 0px 0px 20px;
+    font-family: 'Sigmar One', cursive;
+    width: 100%;
+    justify-content: center;
+    font-size: 50px;
 }
 .discover {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
 }
 .about {
-  padding: 80px 40px;
-  background-image: url(Images/2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
+    padding: 80px 40px;
+    background-image: url(Images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .about-head {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  padding: 0px 0px 20px 0px;
-  color: white;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 0px 0px 20px 0px;
+    color: white;
+    width: 100%;
 }
 
 .about-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  color: white;
-  font-family: "Dancing Script", cursive;
-  font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
 }
 .about-details {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .work-head {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 40px;
 }
 .my-work {
-  background-image: url(Images/7.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  width: 100%;
+    background-image: url(Images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
 }
 
 .greyforbutton {
-  background-color: lightgrey;
-  border-radius: 15px;
+    background-color: lightgrey;
+    border-radius: 15px;
 }
 .navbar-fixed-top.scrolled {
-  background-color: black !important;
-  transition: background-color 200ms linear;
+    background-color: black !important;
+    transition: background-color 200ms linear;
 }
 
 a:link {
-  color: white;
-  /* font-family: "Pacifico", cursive; */
+    color: white;
+    /* font-family: "Pacifico", cursive; */
 }
 
 /* visited link */
 a:visited {
-  color: white;
-  /* font-family: "Pacifico", cursive; */
+    color: white;
+    /* font-family: "Pacifico", cursive; */
 }
 
 /* mouse over link */
 a:hover {
-  color: orange;
-  font-family: "Sigmar One", cursive;
+    color: orange;
+    font-family: 'Sigmar One', cursive;
 }
 .fa-instagram:hover {
-  color: magenta;
+    color: magenta;
 }
 .fa-github:hover {
-  color: black;
+    color: black;
 }
 .fa-linkedin:hover {
-  color: #0077b5;
+    color: #0077b5;
 }
 .social_media {
-  position: absolute;
-  bottom: 0px;
-  justify-content: space-around;
-  font-size: 40px;
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-around;
+    font-size: 40px;
 }
 .icon {
-  height: 10px;
-  width: 10px;
-  padding: 50px;
-  justify-content: center;
+    height: 10px;
+    width: 10px;
+    padding: 50px;
+    justify-content: center;
 }
 .container-text {
-  justify-content: center;
+    justify-content: center;
 }
 .typewrite {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-size: 45px;
-  font-family: "Shadows Into Light", cursive;
-  color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
 }
 .cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .card {
-  height: 400px;
-  width: 300px;
-  border-radius: 30px;
-  background-color: transparent;
-  margin: 20px;
-  border: 5px;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 20px;
+    border: 5px;
 }
 .card-text {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  font-family: "Shadows Into Light", cursive;
-  font-size: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
 }
 .card-image:hover {
-  transform: scale(1.1);
-  box-shadow: 10px 10px 10px black;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px black;
 }
 .card-image {
-  height: 300px;
-  display: flex;
-  width: 300px;
-  border-radius: 30px;
-  transition: transform 0.2s;
-  overflow: hidden;
+    height: 300px;
+    display: flex;
+    width: 300px;
+    border-radius: 30px;
+    transition: transform 0.2s;
+    overflow: hidden;
 }
 .footer {
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  bottom: 0px;
-  width: 100%;
-  font-family: "Lato";
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    width: 100%;
+    font-family: 'Lato';
 }
 .footer1 {
-  padding: 20px;
+    padding: 20px;
 }
 .footer2 {
-  padding: 20px;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 991px) {
-  .blackforbutton {
-    background-color: black;
-    border-radius: 15px;
-    font-size: 40px;
-  }
-  .cover-text {
-    font-size: 40px;
-  }
-  .cover-head {
-    font-size: 60px;
-  }
+    .blackforbutton {
+        background-color: black;
+        border-radius: 15px;
+        font-size: 40px;
+    }
+    .cover-text {
+        font-size: 40px;
+    }
+    .cover-head {
+        font-size: 60px;
+    }
 
-  .work-head {
-    font-size: 40px;
-  }
-  .about-head {
-    font-size: 40px;
-  }
-  .about-text {
-    font-size: 30px;
-  }
-  .about-text {
-    font-size: 25px;
-    padding: 15px;
-  }
-  .cover-head {
-    font-size: 80px;
-  }
-  .typewrite {
-    font-size: 30px;
-  }
+    .work-head {
+        font-size: 40px;
+    }
+    .about-head {
+        font-size: 40px;
+    }
+    .about-text {
+        font-size: 30px;
+    }
+    .about-text {
+        font-size: 25px;
+        padding: 15px;
+    }
+    .cover-head {
+        font-size: 80px;
+    }
+    .typewrite {
+        font-size: 30px;
+    }
+}
+#nav-close {
+    display: none;
+}
+@media only screen and (min-width: 991px) {
+    #nav-open {
+        display: none !important;
+    }
 }

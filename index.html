@@ -10,9 +10,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="script.js"></script>
     <title>Portfolio</title>
-    <link rel="icon" type="image/ico" href="Images/logo.png" />
+    <link class="brand-logo" rel="icon" type="image/ico" href="Images/logo.png" />
      
 </head>
 <body>
@@ -22,33 +21,40 @@
   <div class="col">
   <a class="navbar-brand" href="#"><img src="Images/profile.jpg" height="150px" width="150px" style="border-radius: 80px"></a>
   </div>
+<!-- 
+  <button type="button" class="close navbar-toggler btn-light" id="nav-close" style="background-color: black;border-color: lightgray;border-radius: 20px;"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+  </button> -->
+  <button class="navbar-toggler btn-light" id="nav-close" style="background-color: black;border-color: lightgray;border-radius: 20px;"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+    <span aria-hidden="true">&times;</span>
+</button>
 
- 
-  <button class="navbar-toggler btn-light " style="background-color: black;border-color: lightgray;border-radius: 20px;"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+  
+  <button class="navbar-toggler btn-light" id="nav-open" style="background-color: black;border-color: lightgray;border-radius: 20px;"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
      <span class="navbar-toggler-icon"></span>
  </button>
   
   <div class="collapse navbar-collapse blackforbutton" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto" style="display: flex">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" id="nav-link1" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about-me">About Me</a>
+        <a class="nav-link" id="nav-link2" href="#about-me">About Me</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           My works
         </a>
         <div class="dropdown-menu  mywork greyforbutton" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#all-work">All Work</a>
+          <a class="dropdown-item" id="nav-link3" href="#all-work">All Work</a>
           <a class="dropdown-item" href="internships.html">Internships</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Certificates</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://1drv.ms/b/s!AqX3l4auM5mdgbFWVwYkMqPWZtL-mg?e=HLJsQJ" target="_blank">Resume</a>
+        <a class="nav-link" id="nav-link4" href="https://1drv.ms/b/s!AqX3l4auM5mdgbFWVwYkMqPWZtL-mg?e=HLJsQJ" target="_blank">Resume</a>
       </li>
     </ul>
     
@@ -170,6 +176,7 @@
     {
          location.href = "discover_more.html";
     } 
-    </script>      
+	</script>   
+	<script src="script.js"></script>   
 </body>
 </html>
