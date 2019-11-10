@@ -44,7 +44,7 @@ body {
 }
 .about {
     padding: 80px 40px;
-    background-image: url(Images/2.jpg);
+    background: rgb(0, 180, 255);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -85,7 +85,7 @@ body {
     padding: 40px;
 }
 .my-work {
-    background-image: url(Images/7.png);
+    background: rgb(255, 65, 180);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
