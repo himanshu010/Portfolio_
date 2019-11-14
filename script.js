@@ -6,19 +6,7 @@ const navLink2 = document.getElementById('nav-link2');
 const navLink3 = document.getElementById('nav-link3');
 const navLink4 = document.getElementById('nav-link4');
 
-let openButtonClicked = 0;
-
-// function clickClose() {
-//     if (isClicked(doorImage2) && doesNotClick != 0) {
-//         doorImage2.src = openDoor2;
-//         losedGame(doorImage2);
-//     }
-// }
-
-// doorImage2.onclick = onclick2;
-
 function clickNavLink() {
-    openButtonClicked = 0;
     navOpenButton.style.display = 'block';
     navCloseButton.style.display = 'none';
     navContent.style.display = 'none';
@@ -30,7 +18,6 @@ navLink3.onclick = clickNavLink;
 navLink4.onclick = clickNavLink;
 
 function clickNavbutton() {
-    openButtonClicked = 1;
     navOpenButton.style.display = 'none';
     navCloseButton.style.display = 'block';
     navContent.style.display = 'block';
@@ -39,7 +26,6 @@ function clickNavbutton() {
 navOpenButton.onclick = clickNavbutton;
 
 function clickClosebutton() {
-    openButtonClicked = 0;
     navOpenButton.style.display = 'block';
     navCloseButton.style.display = 'none';
     navContent.style.display = 'none';
