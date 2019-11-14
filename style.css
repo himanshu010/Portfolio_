@@ -24,23 +24,23 @@ body {
     align-content: center;
 }
 .cover-head {
-    font-size: 130px;
+    font-size: 70px;
     width: 100%;
     justify-content: center;
     font-family: 'Pacifico', cursive;
+    margin-top: 30px;
 }
-.cover-text {
+/* .cover-text {
     padding: 0px 0px 20px;
     font-family: 'Sigmar One', cursive;
     width: 100%;
     justify-content: center;
     font-size: 50px;
-}
+} */
 .discover {
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 150px;
 }
 .about {
     padding: 80px 40px;
@@ -66,7 +66,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 70px;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
@@ -147,7 +147,7 @@ a:hover {
     justify-content: center;
     font-size: 45px;
     font-family: 'Shadows Into Light', cursive;
-    color: black;
+    color: white;
 }
 .cards {
     display: flex;
@@ -204,11 +204,11 @@ a:hover {
         border-radius: 15px;
         font-size: 40px;
     }
-    .cover-text {
+    /* .cover-text {
         font-size: 40px;
-    }
+    } */
     .cover-head {
-        font-size: 60px;
+        font-size: 40px !important;
     }
 
     .work-head {
@@ -219,16 +219,21 @@ a:hover {
     }
     .about-text {
         font-size: 30px;
-    }
-    .about-text {
-        font-size: 25px;
         padding: 15px;
-    }
-    .cover-head {
-        font-size: 80px;
     }
     .typewrite {
         font-size: 30px;
+    }
+    .rating-bar span {
+        height: 10px !important;
+    }
+    .skills {
+        height: 10px !important;
+        font-size: 5px;
+    }
+    .profile-img {
+        height: 90px;
+        width: 90px;
     }
 }
 #nav-close {
@@ -238,4 +243,154 @@ a:hover {
     #nav-open {
         display: none !important;
     }
+}
+/* Make sure that padding behaves as expected */
+* {
+    box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.rate-container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    font-family: 'Sigmar One', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 40px;
+}
+
+.python {
+    width: 85%;
+    background-color: #4caf50;
+}
+.react {
+    width: 90%;
+    background-color: #2196f3;
+}
+.nodejs {
+    width: 70%;
+    background-color: #f44336;
+}
+.js {
+    width: 80%;
+    background-color: #808080;
+}
+.cpp {
+    width: 75%;
+    background-color: darkviolet;
+}
+.mongodb {
+    width: 70%;
+    background-color: darkturquoise;
+}
+.rating-bar {
+    padding: 3px;
+}
+.rating-bar span {
+    display: block;
+    height: 40px;
+    margin: 0px !important;
+}
+.rating-bar,
+.rating-bar span {
+    border-radius: 4px;
+}
+/* .rate-n, n being the rating from 1 to 10 */
+.rate-1 {
+    width: 10%;
+}
+.rate-2 {
+    width: 20%;
+}
+.rate-3 {
+    width: 30%;
+}
+.rate-4 {
+    width: 40%;
+}
+.rate-5 {
+    width: 50%;
+}
+.rate-6 {
+    width: 60%;
+}
+.rate-7 {
+    width: 70%;
+}
+.rate-8 {
+    width: 80%;
+}
+.rate-9 {
+    width: 90%;
+}
+.rate-10 {
+    width: 100%;
+}
+
+/* CSS3 Animation */
+.animate {
+    animation: progress 2s linear;
+    -moz-animation: progress 2s linear;
+    -webkit-animation: progress 2s linear;
+    -ms-animation: progress 2s linear;
+    -o-animation: progress 2s linear;
+}
+/* Span fills 100% of parent div (.rate-n) which may be 10-100% of the width of black bar (.rating) */
+@-webkit-keyframes progress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@-moz-keyframes progress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@-ms-keyframes progress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@-o-keyframes progress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes progress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+.skills-rating-block {
+    margin: 20px;
+    width: 100% !important;
+}
+.rate-block {
+    margin: 20px;
+}
+.skill-head {
+    font-family: 'Sigmar One', cursive;
 }
