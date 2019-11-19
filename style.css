@@ -30,7 +30,7 @@ body {
     font-family: 'Sigmar One', cursive;
     margin-top: 30px;
 }
-#nav-close{
+#nav-close {
     font-size: 70px;
 }
 /* .cover-text {
@@ -76,7 +76,7 @@ body {
     font-weight: bolder;
     width: 100%;
 }
-.skills-known{
+.skills-known {
     font-family: 'Sigmar One', cursive;
     width: 100%;
 }
@@ -219,7 +219,7 @@ a:hover {
     .cover-head {
         font-size: 90px !important;
     }
-    .nav-link{
+    .nav-link {
         font-size: 40px;
     }
 
@@ -247,7 +247,7 @@ a:hover {
         height: 90px;
         width: 90px;
     }
-    .social_media{
+    .social_media {
         font-size: 70px;
     }
 }
