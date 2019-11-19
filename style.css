@@ -27,7 +27,7 @@ body {
     font-size: 70px;
     width: 100%;
     justify-content: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sigmar One', cursive;
     margin-top: 30px;
 }
 /* .cover-text {
@@ -56,20 +56,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 80px;
     padding: 0px 0px 20px 0px;
     color: white;
     width: 100%;
+    font-family: 'Sigmar One', cursive;
 }
 
 .about-text {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: 70px;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
+    width: 100%;
+}
+.skills-known{
+    font-family: 'Sigmar One', cursive;
+    width: 100%;
 }
 .about-details {
     display: flex;
@@ -208,27 +214,27 @@ a:hover {
         font-size: 40px;
     } */
     .cover-head {
-        font-size: 40px !important;
+        font-size: 90px !important;
     }
 
     .work-head {
-        font-size: 40px;
+        font-size: 50px;
     }
     .about-head {
-        font-size: 40px;
+        font-size: 60px;
     }
     .about-text {
-        font-size: 30px;
+        font-size: 60px;
         padding: 15px;
     }
     .typewrite {
-        font-size: 30px;
+        font-size: 60px;
     }
     .rating-bar span {
-        height: 10px !important;
+        height: 30px !important;
     }
     .skills {
-        height: 10px !important;
+        height: 30px !important;
         font-size: 5px;
     }
     .profile-img {
