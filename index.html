@@ -3,7 +3,7 @@
 <head>
    
     <link
-      href="https://fonts.googleapis.com/css?family=Chilanka|Sigmar+One|Dancing+Script|Lato|Shadows+Into+Light&display=swap"
+      href="https://fonts.googleapis.com/css?family=Chilanka|Sigmar+One|Bradley+Hand+ITC|Dancing+Script|Lato|Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -14,7 +14,9 @@
     <link class="brand-logo" rel="icon" type="image/ico" href="Images/logo.png" />
      
 </head>
-<body>
+<body class="body1">
+  <div class="onlytotargetbody">Don't Delete This div</div>
+  <div class="onlytotargetabout">Don't Delete This div</div>
   <div class="nav1" style="display: flex; justify-content: center;">
    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top color-white navbar-fixed-top" style="font-size: 22px;"> 
   <div class="col">
@@ -65,7 +67,7 @@
           
           <div class="container discover">
                
-          <button type="but button" class="btn btn-light btn-default btn-circle" style="font-size: 20px;border-radius: 30px;height: 60px;width: 200px" onclick="discover_more()">
+          <button type="but button" class="btn btn-dark btn-default btn-circle" style="font-size: 20px;border-radius: 30px;height: 60px;width: 200px" onclick="discover_more()">
                
             Discover more
                     
@@ -242,7 +244,17 @@
   <script>$(function () {
   $(document).scroll(function () {
     var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    var $nav1 = $(".nav-link");
+    var $body1 = $(".body1");
+    var $targetBody = $(".onlytotargetbody")
+    var $targetAbout = $(".onlytotargetabout")
+    var $about = $(".about")
+    var $aboutText = $(".about-text")
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
+    $nav1.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
+    $body1.toggleClass('scrolled', $(this).scrollTop() > $targetBody.height());
+    $about.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
+    $aboutText.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
   });
 });
     </script> 
@@ -251,7 +263,7 @@
     {
          location.href = "discover_more.html";
     } 
-	</script>   
+  </script>  
   <script src="script.js"></script> 
 </body>
 </html>
