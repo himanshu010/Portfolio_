@@ -226,11 +226,11 @@ a:hover {
     .cover-head {
         font-size: 90px !important;
     }
-    .nav-link {
-        font-size: 40px;
+    .nav-link,
+    .dropdown-item {
+        font-size: 40px !important;
         color: white !important;
     }
-
     .work-head {
         font-size: 50px;
     }
@@ -421,9 +421,10 @@ a:hover {
     font-family: 'Sigmar One', cursive;
     color: black;
 }
-.nav-link {
-    font-size: larger;
-    color: black !important;
+.nav-link,
+.dropdown-item {
+    font-size: larger !important;
+    /* color: black !important; */
 }
 .dropdown-item {
     color: white !important;
