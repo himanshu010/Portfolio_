@@ -421,10 +421,12 @@ a:hover {
     font-family: 'Sigmar One', cursive;
     color: black;
 }
-.nav-link,
-.dropdown-item {
+.nav-link {
     font-size: larger !important;
     /* color: black !important; */
+}
+.dropdown-item {
+    font-size: 30px !important;
 }
 .dropdown-item {
     color: white !important;
