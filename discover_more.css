@@ -199,6 +199,7 @@ body {
 body {
     display: flex !important;
     justify-content: center !important;
+    height: 100vh !important;
 }
 .profile-card-wrap .link-info .photo {
     z-index: 2;
@@ -384,7 +385,7 @@ body {
 }
 @media only screen and (max-width: 991px) {
     .profile-card-wrap {
-        transform: scale(4);
+        transform: scale(3);
         /* transform-origin: 0% 0% 0px; */
     }
     body {
