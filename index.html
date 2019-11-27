@@ -13,11 +13,82 @@
     <title>Portfolio</title>
     <link class="brand-logo" rel="icon" type="image/ico" href="Images/logo.png" />
      
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("navbar-on-top").style.display = "block";
+    }
+    </script>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script>$(function () {
+$(document).scroll(function () {
+var $nav = $(".navbar-fixed-top");
+var $nav1 = $(".nav-link");
+var $body1 = $(".body1");
+var $targetBody = $(".onlytotargetbody")
+var $targetAbout = $(".onlytotargetabout")
+var $about = $(".about")
+var $aboutText = $(".about-text")
+$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
+$nav1.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
+$body1.toggleClass('scrolled', $(this).scrollTop() > $targetBody.height());
+$about.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
+$aboutText.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
+});
+});
+</script> 
+<script>
+function discover_more()
+{
+   location.href = "discover_more.html";
+} 
+</script>  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+var myVar
+$(window).on('load', onloadpage())
+function onloadpage(){
+
+myVar = setTimeout(afterload, 9000);
+
+}
+function afterload()
+{ // makes sure the whole site is loaded 
+$('#status').fadeOut(3000); // will first fade out the loading animation 
+$('#preloader').delay(1000).fadeOut('fast'); // will fade out the white DIV that covers the website. 
+$('body').delay(2000).css({'overflow':'visible'});
+}
+</script>
+    
 </head>
 <body class="body1">
+    <div id="preloader">
+        <div id="status">
+          <div class="preloader-text">
+            View in Portrait Orientation for Best Result
+          </div>
+        </div>
+      </div>
   <div class="onlytotargetbody">Don't Delete This div</div>
   <div class="onlytotargetabout">Don't Delete This div</div>
-  <div class="nav1" style="display: flex; justify-content: center;">
+
+  <div class="nav1" id="navbar-on-top">
    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top color-white navbar-fixed-top" style="font-size: 22px;"> 
   <div class="col">
     <a class="navbar-brand" href="#"><img class="profile-img" src="Images/profile.jpg" height="130px" width="130px" style="border-radius: 80px"></a>
@@ -229,41 +300,7 @@
         </div>
       </div>
 
-  
-    
+<script src="script.js"></script> 
 
-     
-  
-
-
- 
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  
-  <script>$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    var $nav1 = $(".nav-link");
-    var $body1 = $(".body1");
-    var $targetBody = $(".onlytotargetbody")
-    var $targetAbout = $(".onlytotargetabout")
-    var $about = $(".about")
-    var $aboutText = $(".about-text")
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
-    $nav1.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
-    $body1.toggleClass('scrolled', $(this).scrollTop() > $targetBody.height());
-    $about.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
-    $aboutText.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
-  });
-});
-    </script> 
-   <script>
-    function discover_more()
-    {
-         location.href = "discover_more.html";
-    } 
-  </script>  
-  <script src="script.js"></script> 
 </body>
 </html>

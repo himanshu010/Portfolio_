@@ -5,11 +5,21 @@ const navLink1 = document.getElementById('nav-link1');
 const navLink2 = document.getElementById('nav-link2');
 const navLink3 = document.getElementById('nav-link3');
 const navLink4 = document.getElementById('nav-link4');
+const navbarTop = document.getElementById('navbar-on-top');
+var myVar;
 
 function clickNavLink() {
     navOpenButton.style.display = 'block';
     navCloseButton.style.display = 'none';
     navContent.style.display = 'none';
+}
+window.onload = after10s();
+
+function after10s() {
+    myVar = setTimeout(showNavbar, 10000);
+}
+function showNavbar() {
+    navbarTop.style.display = 'flex';
 }
 
 navLink1.onclick = clickNavLink;

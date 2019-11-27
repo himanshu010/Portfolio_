@@ -258,6 +258,9 @@ a:hover {
     .social_media {
         font-size: 70px;
     }
+    .preloader-text {
+        display: block !important;
+    }
 }
 #nav-close {
     display: none;
@@ -464,4 +467,52 @@ a:hover {
 .about-text.scrolled {
     color: black !important;
     transition: color 2000ms linear;
+}
+body {
+    overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    /* change if the mask should have another color then white */
+    z-index: 99;
+    /* makes sure it stays on top */
+}
+
+#status {
+    position: absolute;
+    /* centers the loading animation horizontally one the screen */
+    /* centers the loading animation vertically one the screen */
+    background-image: url('./Images/preloader.gif');
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* is width and height divided by two */
+    /* The image used */
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-on-top {
+    display: none;
+    justify-content: center;
+}
+.preloader-text {
+    display: none;
+    font-size: 30px;
+    font-weight: bolder;
 }
