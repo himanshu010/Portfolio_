@@ -192,7 +192,14 @@ body {
     background: black;
     border-color: black;
 }
-
+.profile-card-wrap {
+    transform: scale(2);
+    /* transform-origin: 0% 0% 0px; */
+}
+body {
+    display: flex !important;
+    justify-content: center !important;
+}
 .profile-card-wrap .link-info .photo {
     z-index: 2;
     width: inherit;
@@ -378,7 +385,7 @@ body {
 @media only screen and (max-width: 991px) {
     .profile-card-wrap {
         transform: scale(4);
-        transform-origin: 0% 0% 0px;
+        /* transform-origin: 0% 0% 0px; */
     }
     body {
         overflow: scroll;
