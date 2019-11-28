@@ -494,15 +494,15 @@ body {
     position: absolute;
     /* centers the loading animation horizontally one the screen */
     /* centers the loading animation vertically one the screen */
-    background-image: url('./Images/loader5.gif');
+    background-image: url('./Images/loader7.gif');
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
     /* is width and height divided by two */
     /* The image used */
     /* Full height */
-    height: 30%;
-    width: 30%;
+    height: 70%;
+    width: 70%;
 
     /* Center and scale the image nicely */
     background-size: cover;
@@ -527,6 +527,7 @@ body {
 }
 @media screen and (orientation: landscape) {
     .preloader-text {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 }
