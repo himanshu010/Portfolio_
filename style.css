@@ -494,7 +494,7 @@ body {
     position: absolute;
     /* centers the loading animation horizontally one the screen */
     /* centers the loading animation vertically one the screen */
-    background-image: url('./Images/loader6.gif');
+    background-image: url('./Images/loader5.gif');
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
