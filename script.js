@@ -16,7 +16,7 @@ function clickNavLink() {
 window.onload = after10s();
 
 function after10s() {
-    myVar = setTimeout(showNavbar, 10000);
+    myVar = setTimeout(showNavbar, 5000);
 }
 function showNavbar() {
     navbarTop.style.display = 'flex';

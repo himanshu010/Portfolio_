@@ -65,7 +65,7 @@ var myVar
 $(window).on('load', onloadpage())
 function onloadpage(){
 
-myVar = setTimeout(afterload, 9000);
+myVar = setTimeout(afterload, 4000);
 
 }
 function afterload()
@@ -79,11 +79,13 @@ $('body').delay(2000).css({'overflow':'visible'});
 </head>
 <body class="body1">
     <div id="preloader">
+      <div class="preloader-content">
         <div id="status">
+          </div>
           <div class="preloader-text">
             View in Portrait Orientation for Best Result
           </div>
-        </div>
+         </div> 
       </div>
   <div class="onlytotargetbody">Don't Delete This div</div>
   <div class="onlytotargetabout">Don't Delete This div</div>

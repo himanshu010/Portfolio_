@@ -258,9 +258,6 @@ a:hover {
     .social_media {
         font-size: 70px;
     }
-    .preloader-text {
-        display: block !important;
-    }
 }
 #nav-close {
     display: none;
@@ -366,6 +363,7 @@ a:hover {
 
 /* CSS3 Animation */
 .animate {
+    animation-delay: 5s !important;
     animation: progress 2s linear;
     -moz-animation: progress 2s linear;
     -webkit-animation: progress 2s linear;
@@ -480,39 +478,52 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: white;
+    background-color: black;
     /* change if the mask should have another color then white */
     z-index: 99;
     /* makes sure it stays on top */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #status {
     position: absolute;
     /* centers the loading animation horizontally one the screen */
     /* centers the loading animation vertically one the screen */
-    background-image: url('./Images/preloader.gif');
+    background-image: url('./Images/loader5.gif');
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
     /* is width and height divided by two */
     /* The image used */
     /* Full height */
-    height: 100%;
-    width: 100%;
+    height: 30%;
+    width: 30%;
 
     /* Center and scale the image nicely */
     background-size: cover;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #navbar-on-top {
     display: none;
     justify-content: center;
 }
+.preloader-content {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .preloader-text {
     display: none;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Sigmar One', cursive;
+    z-index: 1000 !important;
+    color: white;
+}
+@media screen and (orientation: landscape) {
+    .preloader-text {
+        display: block !important;
+    }
 }
