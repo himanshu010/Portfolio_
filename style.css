@@ -531,3 +531,14 @@ body {
         justify-content: center;
     }
 }
+.here {
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    padding: 2px;
+    background-color: white;
+    color: black !important;
+}
+.here:hover {
+    /* color: red !important; */
+}
