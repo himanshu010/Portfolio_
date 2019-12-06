@@ -538,6 +538,7 @@ body {
     padding: 2px;
     background-color: white;
     color: black !important;
+    border-radius: 5px;
 }
 .here:hover {
     color: red !important;
