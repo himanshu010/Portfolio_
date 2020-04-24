@@ -1,308 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   
+  <head>
     <link
       href="https://fonts.googleapis.com/css?family=Chilanka|Sigmar+One|Bradley+Hand+ITC|Dancing+Script|Lato|Shadows+Into+Light&display=swap"
       rel="stylesheet"
-    />  
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Portfolio</title>
-    <link class="brand-logo" rel="icon" type="image/ico" href="Images/logo.png" />
-     
-<script>
-    var myVar;
-    
-    function myFunction() {
-      myVar = setTimeout(showPage, 3000);
-    }
-    
-    function showPage() {
-      document.getElementById("navbar-on-top").style.display = "block";
-    }
+    <link
+      class="brand-logo"
+      rel="icon"
+      type="image/ico"
+      href="Images/logo.png"
+    />
+
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
+
+      function showPage() {
+        document.getElementById("navbar-on-top").style.display = "block";
+      }
     </script>
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
 
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          var $nav1 = $(".nav-link");
+          var $body1 = $(".body1");
+          var $targetBody = $(".onlytotargetbody");
+          var $targetAbout = $(".onlytotargetabout");
+          var $about = $(".about");
+          var $aboutText = $(".about-text");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          $nav1.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          $body1.toggleClass(
+            "scrolled",
+            $(this).scrollTop() > $targetBody.height()
+          );
+          $about.toggleClass(
+            "scrolled",
+            $(this).scrollTop() > $targetAbout.height()
+          );
+          $aboutText.toggleClass(
+            "scrolled",
+            $(this).scrollTop() > $targetAbout.height()
+          );
+        });
+      });
+    </script>
+    <script>
+      function discover_more() {
+        location.href = "discover_more.html";
+      }
+    </script>
 
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<script>$(function () {
-$(document).scroll(function () {
-var $nav = $(".navbar-fixed-top");
-var $nav1 = $(".nav-link");
-var $body1 = $(".body1");
-var $targetBody = $(".onlytotargetbody")
-var $targetAbout = $(".onlytotargetabout")
-var $about = $(".about")
-var $aboutText = $(".about-text")
-$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
-$nav1.toggleClass('scrolled', $(this).scrollTop() > $nav.height());    
-$body1.toggleClass('scrolled', $(this).scrollTop() > $targetBody.height());
-$about.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
-$aboutText.toggleClass('scrolled', $(this).scrollTop() > $targetAbout.height());
-});
-});
-</script> 
-<script>
-function discover_more()
-{
-   location.href = "discover_more.html";
-} 
-</script>  
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-var myVar
-$(window).on('load', onloadpage())
-function onloadpage(){
-
-myVar = setTimeout(afterload, 4000);
-
-}
-function afterload()
-{ // makes sure the whole site is loaded 
-$('#status').fadeOut(3000); // will first fade out the loading animation 
-$('#preloader').delay(1000).fadeOut('fast'); // will fade out the white DIV that covers the website. 
-$('body').delay(2000).css({'overflow':'visible'});
-}
-</script>
-    
-</head>
-<body class="body1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      var myVar;
+      $(window).on("load", onloadpage());
+      function onloadpage() {
+        myVar = setTimeout(afterload, 4000);
+      }
+      function afterload() {
+        // makes sure the whole site is loaded
+        $("#status").fadeOut(3000); // will first fade out the loading animation
+        $("#preloader").delay(1000).fadeOut("fast"); // will fade out the white DIV that covers the website.
+        $("body").delay(2000).css({ overflow: "visible" });
+      }
+    </script>
+  </head>
+  <body class="body1">
     <div id="preloader">
       <div class="preloader-content">
-        <div id="status">
-          </div>
-          <div class="preloader-text">
-            View in Portrait Orientation for Best Result
-          </div>
-         </div> 
-      </div>
-  <div class="onlytotargetbody">Don't Delete This div</div>
-  <div class="onlytotargetabout">Don't Delete This div</div>
-
-  <div class="nav1" id="navbar-on-top">
-   <nav class="navbar navbar-expand-lg navbar-dark  fixed-top color-white navbar-fixed-top" style="font-size: 22px;"> 
-  <div class="col">
-    <a class="navbar-brand" href="#"><img class="profile-img" src="Images/profile.jpg" height="130px" width="130px" style="border-radius: 80px"></a>
-  </div>
-  <button class="navbar-toggler btn-light" id="nav-close" style="background-color: black;border-color: lightgray;border-radius: 20px;"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-    <span aria-hidden="true">&times;</span>
-  </button>  
-  <button class="navbar-toggler btn-light" id="nav-open" style="background-color: black;border-color: lightgray;border-radius: 20px;"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-     <span class="navbar-toggler-icon"></span>
-  </button>  
-  <div class="collapse navbar-collapse blackforbutton" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto" style="display: flex">
-      <li class="nav-item active">
-        <a class="nav-link navLink" id="nav-link1" href="#home" style="color: black;">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="nav-link2" href="#about-me" style="color: black;">About Me</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: black;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          My works
-        </a>
-        <div class="dropdown-menu  mywork greyforbutton" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" id="nav-link3" href="#all-work">All Work</a>
-          <a class="dropdown-item" href="internships.html">Internships</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Certificates</a>
+        <div id="status"></div>
+        <div class="preloader-text">
+          View in Portrait Orientation for Best Result
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="nav-link4" style="color: black;" href="https://1drv.ms/b/s!AqX3l4auM5mdgbFWVwYkMqPWZtL-mg?e=HLJsQJ" target="_blank">Resume</a>
-      </li>
-    </ul>    
-  </div>
-  </nav>
-  </div>
+      </div>
+    </div>
+    <div class="onlytotargetbody">Don't Delete This div</div>
+    <div class="onlytotargetabout">Don't Delete This div</div>
 
-<section id="main">
-  <div class="main-cover" id="home">
-    <div class="cover">
-        
-       <div class="container text">
-          <div class="row cover-head">Himanshu Aswal</div>
-          <div class=" typewrite"  data-type='[ "Hi, Im Himanshu Aswal.", "I am a Full Stack Web Developer", "and a Machine-Learning Enthusiast."]'>
+    <div class="nav1" id="navbar-on-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top color-white navbar-fixed-top"
+        style="font-size: 22px;"
+      >
+        <div class="col">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="profile-img"
+              src="Images/profile.jpg"
+              height="130px"
+              width="130px"
+              style="border-radius: 80px;"
+          /></a>
+        </div>
+        <button
+          class="navbar-toggler btn-light"
+          id="nav-close"
+          style="
+            background-color: black;
+            border-color: lightgray;
+            border-radius: 20px;
+          "
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <button
+          class="navbar-toggler btn-light"
+          id="nav-open"
+          style="
+            background-color: black;
+            border-color: lightgray;
+            border-radius: 20px;
+          "
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse blackforbutton"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto" style="display: flex;">
+            <li class="nav-item active">
+              <a
+                class="nav-link navLink"
+                id="nav-link1"
+                href="#home"
+                style="color: black;"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="nav-link2"
+                href="#about-me"
+                style="color: black;"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                style="color: black;"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                My works
+              </a>
+              <div
+                class="dropdown-menu mywork greyforbutton"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item" id="nav-link3" href="#all-work"
+                  >All Work</a
+                >
+                <a class="dropdown-item" href="internships.html">Internships</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Certificates</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="nav-link4"
+                style="color: black;"
+                href="https://1drv.ms/b/s!AqX3l4auM5mdgbFWVwYkMqPWZtL-mg?e=HLJsQJ"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <section id="main">
+      <div class="main-cover" id="home">
+        <div class="cover">
+          <div class="container text">
+            <div class="row cover-head">Himanshu Aswal</div>
+            <div
+              class="typewrite"
+              data-type='[ "Hi, Im Himanshu Aswal.", "I am a Full Stack Web Developer", "and a Machine-Learning Enthusiast."]'
+            >
               <span class="wrap"></span>
-          </div>
-          
-          <div class="container discover">
-               
-          <button type="but button" class="btn btn-dark btn-default btn-circle" style="font-size: 20px;border-radius: 30px;height: 60px;width: 200px" onclick="discover_more()">
-               
-            Discover more
-                    
-          </button>
-          </div>
-          <section class="skills-rating-block">
-<h2 class="skill-head">Top Skills</h2>
-                <div class="rate-block">
-            <div class="container rate-container rating-bar">
-                <div class="rate-10">
-                    <span class="animate">
-              <div class="skills python">Python</div>
-              </span>
-              </div>
-            </div>
-                </div>
-            <div class="rate-block">
-            <div class="container rate-container rating-bar">
-                <div class="rate-10">
-                    <span class="animate">
-              <div class="skills react">React.js</div>
-              </span>
-              </div>
-              </div>
-            </div>
-              <div class="rate-block">
-                <div class="container rate-container rating-bar">
-                    <div class="rate-10">
-                      <span class="animate">
-              <div class="skills nodejs">Node.js</div>
-                      </span>
-                      </div>
-                      </div>
-                    </div>
-              <div class="rate-block">
-            <div class="container rate-container rating-bar">
-              <div class="rate-10">
-                <span class="animate">
-              <div class="skills js">JavaScript</div>
-            </span>
-            </div>
-            </div>
-          </div>
-
-          <div class="rate-block">
-              <div class="container rate-container rating-bar">
-                <div class="rate-10">
-                  <span class="animate">
-                <div class="skills cpp">C++</div>
-              </span>
-              </div>
-              </div>
             </div>
 
-            <div class="rate-block">
+            <div class="container discover">
+              <button
+                type="but button"
+                class="btn btn-dark btn-default btn-circle"
+                style="
+                  font-size: 20px;
+                  border-radius: 30px;
+                  height: 60px;
+                  width: 200px;
+                "
+                onclick="discover_more()"
+              >
+                Discover more
+              </button>
+            </div>
+            <section class="skills-rating-block">
+              <h2 class="skill-head">Top Skills</h2>
+              <div class="rate-block">
                 <div class="container rate-container rating-bar">
                   <div class="rate-10">
                     <span class="animate">
-                  <div class="skills mongodb">MongoDB</div>
-                </span>
-                </div>
+                      <div class="skills python">Python</div>
+                    </span>
+                  </div>
                 </div>
               </div>
-            
-            </section>
-          
-          <div class="social_media">
-            <a href="https://www.instagram.com/himanshu_.aswal/"><i class="fa fa-instagram icon"></i></a>
-            <a href="https://github.com/himanshu010"><i class="fa fa-github icon"></i></a>
-            <!-- <a href="https://twitter.com/himanshu__aswal"><i class="fa fa-twitter icon"></i></a> -->
-            <a href="https://www.linkedin.com/in/himanshu-aswal-ab75a5158/"><i class="fa fa-linkedin icon"></i></a>
-            <!-- <a href="https://www.facebook.com/profile.php?id=100009031982067"><i class="fa fa-facebook-f icon"></i></a> -->
-          </div>
+              <div class="rate-block">
+                <div class="container rate-container rating-bar">
+                  <div class="rate-10">
+                    <span class="animate">
+                      <div class="skills react">React.js</div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="rate-block">
+                <div class="container rate-container rating-bar">
+                  <div class="rate-10">
+                    <span class="animate">
+                      <div class="skills nodejs">Node.js</div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="rate-block">
+                <div class="container rate-container rating-bar">
+                  <div class="rate-10">
+                    <span class="animate">
+                      <div class="skills js">JavaScript</div>
+                    </span>
+                  </div>
+                </div>
+              </div>
 
-          
-        </div>
-    </div>
-  </div>
-    <div class="about" id="about-me">
-       <div class="about-head">
-           About Me
-       </div>
-       <div class="about-details">
-           <div class="about-text">
-             <div class="row-12">
-            I’m Himanshu Aswal, a full-stack web designer, 3d Visualiser and a Machine Learning Enthusiast based in Delhi. I’ve spent the last year in Delhi, during which time I designed, built and maintained the Shot on Target™ website.
-            <br>I am familiar with :
+              <div class="rate-block">
+                <div class="container rate-container rating-bar">
+                  <div class="rate-10">
+                    <span class="animate">
+                      <div class="skills cpp">C++</div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rate-block">
+                <div class="container rate-container rating-bar">
+                  <div class="rate-10">
+                    <span class="animate">
+                      <div class="skills mongodb">MongoDB</div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="social_media">
+              <a href="https://www.instagram.com/himanshu_.aswal/"
+                ><i class="fa fa-instagram icon"></i
+              ></a>
+              <a href="https://github.com/himanshu010"
+                ><i class="fa fa-github icon"></i
+              ></a>
+              <!-- <a href="https://twitter.com/himanshu__aswal"><i class="fa fa-twitter icon"></i></a> -->
+              <a href="https://www.linkedin.com/in/himanshu-aswal-ab75a5158/"
+                ><i class="fa fa-linkedin icon"></i
+              ></a>
+              <!-- <a href="https://www.facebook.com/profile.php?id=100009031982067"><i class="fa fa-facebook-f icon"></i></a> -->
+            </div>
           </div>
-            
+        </div>
+      </div>
+      <div class="about" id="about-me">
+        <div class="about-head">
+          About Me
+        </div>
+        <div class="about-details">
+          <div class="about-text">
+            <div class="row-12">
+              I’m Himanshu Aswal, a full-stack web designer, 3d Visualiser and a
+              Machine Learning Enthusiast based in Delhi. I’ve spent the last
+              year in Delhi, during which time I designed, built and maintained
+              the Shot on Target™ website.
+              <br />I am familiar with :
+            </div>
+
             <div class="skills-known row-12">
-            <br>HTML5 
-            <br>CSS
-            <br>JavaScript
-            <br>Git
-            <br>SQL
-            <br>React.js
-            <br>Express.js
-            <br>Node-SQLite<br><br>
+              <br />HTML5 <br />CSS <br />JavaScript <br />Git <br />SQL
+              <br />React.js <br />Express.js <br />Node-SQLite<br /><br />
             </div>
             I also have knowledge of the following programming languages :
             <div class="skills-known row-12">
-            <br>C
-            <br>C++
-            <br>Python
-            <br>Octave
-            <br>Scilab<br><br>
+              <br />C <br />C++ <br />Python <br />Octave
+              <br />Scilab<br /><br />
             </div>
-            
-            <br>Currently, I am looking forward in the field of Machine Learning
-           </div>
-           <div class="about-img">
-               <img  src="https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" height="500px" width="600px" alt="my image" class="img-thumbnail rounded float-right">
-           </div>
-       </div>
-    </div>
-    <div class="my-work" id="all-work">
-     <div class="work-head">
-         My Work
-     </div>
-     <div class="cards">
-       <!-- card template -->
-     <a class="card" href="https://github.com/himanshu010/First-JavaScript-Project">
-      <div class="card-image"><img src="Images/js.jpg"/></div>
-      <div class="card-text">
-        First JavaScirpt Project
-      </div>
-    </a>
 
-     <a class="card" href="https://himanshu010.github.io/First-JavaScript-Game/">
-     <div class="card-image"><img src="Images/10.jpg"/> </div>
-      <div class="card-text">
-        Chore Door! Game
-      </div>
-    </a>
-
-    <a class="card" href="https://github.com/himanshu010/human-activity-recognition">
-      <div class="card-image"><img src="https://i0.wp.com/dataaspirant.com/wp-content/uploads/2017/03/Multinomial-Logistic-Regression-model.jpg?resize=690%2C394"/> </div>
-       <div class="card-text">
-         Human Activity Recognition
-       </div>
-     </a>
-
-     <a class="card" href="https://github.com/himanshu010/recommendation-model">
-      <div class="card-image"><img src="https://www.recombee.com/img/facebook.png"/> </div>
-       <div class="card-text">
-         Recommendation Model
-       </div>
-     </a>
-    </div>
-  </div>
-</section>
-  
-     <div class="footer sticky-bottom">
-        <div class="footer1">
-            Made with ❤ by Himanshu<br>Proudly made from scratch without the use of any Builders
-        </div>
-        <div class="footer2">
-            All Rights Reserved<br>Found some issue. Report <a class="here" href="https://github.com/himanshu010/Portfolio_website/issues">Here</a>
+            <br />Currently, I am looking forward in the field of Machine
+            Learning
+          </div>
+          <div class="about-img">
+            <img
+              src="https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              height="500px"
+              width="600px"
+              alt="my image"
+              class="img-thumbnail rounded float-right"
+            />
+          </div>
         </div>
       </div>
+      <div class="my-work" id="all-work">
+        <div class="work-head">
+          My Work
+        </div>
+        <div class="cards">
+          <!-- card template -->
+          <a
+            class="card"
+            href="https://github.com/himanshu010/First-JavaScript-Project"
+          >
+            <div class="card-image"><img src="Images/js.jpg" /></div>
+            <div class="card-text">
+              First JavaScirpt Project
+            </div>
+          </a>
 
-<script src="script.js"></script> 
+          <a
+            class="card"
+            href="https://himanshu010.github.io/First-JavaScript-Game/"
+          >
+            <div class="card-image"><img src="Images/10.jpg" /></div>
+            <div class="card-text">
+              Chore Door! Game
+            </div>
+          </a>
 
-</body>
+          <a
+            class="card"
+            href="https://github.com/himanshu010/human-activity-recognition"
+          >
+            <div class="card-image">
+              <img
+                src="https://i0.wp.com/dataaspirant.com/wp-content/uploads/2017/03/Multinomial-Logistic-Regression-model.jpg?resize=690%2C394"
+              />
+            </div>
+            <div class="card-text">
+              Human Activity Recognition
+            </div>
+          </a>
+
+          <a
+            class="card"
+            href="https://github.com/himanshu010/recommendation-model"
+          >
+            <div class="card-image">
+              <img src="https://www.recombee.com/img/facebook.png" />
+            </div>
+            <div class="card-text">
+              Recommendation Model
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer sticky-bottom">
+      <div class="footer1">
+        Made with ❤ by Himanshu<br />Proudly made from scratch without the use
+        of any Builders
+      </div>
+      <div class="footer2">
+        All Rights Reserved<br />Found some issue. Report
+        <a
+          class="here"
+          href="https://github.com/himanshu010/Portfolio_website/issues"
+          >Here</a
+        >
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

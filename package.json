@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "discover_more.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:prettier": "prettier --list-different . \"**/*.{html,css,js,json}\" ",
+    "lint": "yarn lint:prettier",
+    "fix": "yarn lint:prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshu010/Portfolio_.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshu010/Portfolio_/issues"
+  },
+  "homepage": "https://github.com/himanshu010/Portfolio_#readme"
+}

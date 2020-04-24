@@ -1,39 +1,39 @@
 .cover {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 body {
-    font-family: 'Bradley Hand ITC', cursive;
-    font-weight: bolder;
-    background-color: white;
-    /* background-image: url('Images/1.jpg'); */
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
+  font-family: "Bradley Hand ITC", cursive;
+  font-weight: bolder;
+  background-color: white;
+  /* background-image: url('Images/1.jpg'); */
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
 }
 .text {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
-    color: white;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  color: white;
+  align-content: center;
 }
 .cover-head {
-    font-size: 70px;
-    width: 100%;
-    justify-content: center;
-    font-family: 'Sigmar One', cursive;
-    margin-top: 30px;
-    color: black;
+  font-size: 70px;
+  width: 100%;
+  justify-content: center;
+  font-family: "Sigmar One", cursive;
+  margin-top: 30px;
+  color: black;
 }
 #nav-close {
-    font-size: 70px;
+  font-size: 70px;
 }
 /* .cover-text {
     padding: 0px 0px 20px;
@@ -43,503 +43,503 @@ body {
     font-size: 50px;
 } */
 .discover {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .about {
-    padding: 80px 40px;
-    background: rgb(0, 180, 255);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
+  padding: 80px 40px;
+  background: rgb(0, 180, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .about-head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
-    padding: 0px 0px 20px 0px;
-    color: white;
-    width: 100%;
-    font-family: 'Sigmar One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  padding: 0px 0px 20px 0px;
+  color: white;
+  width: 100%;
+  font-family: "Sigmar One", cursive;
 }
 
 .about-text {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    font-size: 70px;
-    color: white;
-    font-family: 'Dancing Script', cursive;
-    font-weight: bolder;
-    width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  width: 100%;
 }
 .skills-known {
-    font-family: 'Sigmar One', cursive;
-    width: 100%;
+  font-family: "Sigmar One", cursive;
+  width: 100%;
 }
 .about-details {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .work-head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  padding: 40px;
 }
 .my-work {
-    background: rgb(255, 65, 180);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    width: 100%;
+  background: rgb(255, 65, 180);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
 }
 
 .greyforbutton {
-    background-color: lightgrey;
-    border-radius: 15px;
+  background-color: lightgrey;
+  border-radius: 15px;
 }
 .navbar-fixed-top.scrolled {
-    background-color: black !important;
-    transition: background-color 200ms linear;
+  background-color: black !important;
+  transition: background-color 200ms linear;
 }
 
 a:link {
-    color: white;
-    /* font-family: "Pacifico", cursive; */
+  color: white;
+  /* font-family: "Pacifico", cursive; */
 }
 
 /* visited link */
 a:visited {
-    color: white;
-    /* font-family: "Pacifico", cursive; */
+  color: white;
+  /* font-family: "Pacifico", cursive; */
 }
 
 /* mouse over link */
 a:hover {
-    color: orange;
-    font-family: 'Sigmar One', cursive;
+  color: orange;
+  font-family: "Sigmar One", cursive;
 }
 .fa-github,
 .fa-instagram,
 .fa-linkedin {
-    color: black;
+  color: black;
 }
 .fa-instagram:hover {
-    color: magenta;
+  color: magenta;
 }
 .fa-github:hover {
-    color: grey;
+  color: grey;
 }
 .fa-linkedin:hover {
-    color: #0077b5;
+  color: #0077b5;
 }
 .social_media {
-    position: absolute;
-    bottom: 0px;
-    justify-content: space-around;
-    font-size: 40px;
+  position: absolute;
+  bottom: 0px;
+  justify-content: space-around;
+  font-size: 40px;
 }
 .icon {
-    height: 10px;
-    width: 10px;
-    padding: 50px;
-    justify-content: center;
+  height: 10px;
+  width: 10px;
+  padding: 50px;
+  justify-content: center;
 }
 .container-text {
-    justify-content: center;
+  justify-content: center;
 }
 .typewrite {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 45px;
-    font-family: 'Shadows Into Light', cursive;
-    color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-family: "Shadows Into Light", cursive;
+  color: black;
 }
 .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .card {
-    height: 400px;
-    width: 300px;
-    border-radius: 30px;
-    background-color: transparent;
-    margin: 20px;
-    border: 5px;
+  height: 400px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: transparent;
+  margin: 20px;
+  border: 5px;
 }
 .card-text {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 40px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
 }
 .card-image:hover {
-    transform: scale(1.1);
-    box-shadow: 10px 10px 10px black;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px black;
 }
 .card-image {
-    height: 300px;
-    display: flex;
-    width: 300px;
-    border-radius: 30px;
-    transition: transform 0.2s;
-    overflow: hidden;
+  height: 300px;
+  display: flex;
+  width: 300px;
+  border-radius: 30px;
+  transition: transform 0.2s;
+  overflow: hidden;
 }
 .footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    bottom: 0px;
-    width: 100%;
-    font-family: 'Lato';
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0px;
+  width: 100%;
+  font-family: "Lato";
 }
 .footer1 {
-    padding: 20px;
+  padding: 20px;
 }
 .footer2 {
-    padding: 20px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 991px) {
-    .blackforbutton {
-        background-color: black;
-        border-radius: 15px;
-        font-size: 40px;
-    }
-    /* .cover-text {
+  .blackforbutton {
+    background-color: black;
+    border-radius: 15px;
+    font-size: 40px;
+  }
+  /* .cover-text {
         font-size: 40px;
     } */
-    .cover-head {
-        font-size: 90px !important;
-    }
-    .nav-link,
-    .dropdown-item {
-        font-size: 40px !important;
-        color: white !important;
-    }
-    .work-head {
-        font-size: 50px;
-    }
-    .about-head {
-        font-size: 60px;
-    }
-    .about-text {
-        font-size: 60px;
-        padding: 15px;
-    }
-    .typewrite {
-        font-size: 60px;
-    }
-    .rating-bar span {
-        height: 30px !important;
-    }
-    .skills {
-        height: 30px !important;
-        font-size: 5px;
-    }
-    .profile-img {
-        height: 90px;
-        width: 90px;
-    }
-    .social_media {
-        font-size: 70px;
-    }
+  .cover-head {
+    font-size: 90px !important;
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 40px !important;
+    color: white !important;
+  }
+  .work-head {
+    font-size: 50px;
+  }
+  .about-head {
+    font-size: 60px;
+  }
+  .about-text {
+    font-size: 60px;
+    padding: 15px;
+  }
+  .typewrite {
+    font-size: 60px;
+  }
+  .rating-bar span {
+    height: 30px !important;
+  }
+  .skills {
+    height: 30px !important;
+    font-size: 5px;
+  }
+  .profile-img {
+    height: 90px;
+    width: 90px;
+  }
+  .social_media {
+    font-size: 70px;
+  }
 }
 #nav-close {
-    display: none;
+  display: none;
 }
 @media only screen and (min-width: 991px) {
-    #nav-open {
-        display: none !important;
-    }
-    #nav-close {
-        display: none !important;
-    }
-    .preloader-text {
-        display: none !important;
-    }
+  #nav-open {
+    display: none !important;
+  }
+  #nav-close {
+    display: none !important;
+  }
+  .preloader-text {
+    display: none !important;
+  }
 }
 /* Make sure that padding behaves as expected */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Container for skill bars */
 .rate-container {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
 }
 
 .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
-    font-family: 'Sigmar One', cursive;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    height: 40px;
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  font-family: "Sigmar One", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  height: 40px;
 }
 
 .python {
-    width: 85%;
-    background-color: #4caf50;
+  width: 85%;
+  background-color: #4caf50;
 }
 .react {
-    width: 90%;
-    background-color: #2196f3;
+  width: 90%;
+  background-color: #2196f3;
 }
 .nodejs {
-    width: 70%;
-    background-color: #f44336;
+  width: 70%;
+  background-color: #f44336;
 }
 .js {
-    width: 80%;
-    background-color: #808080;
+  width: 80%;
+  background-color: #808080;
 }
 .cpp {
-    width: 75%;
-    background-color: darkviolet;
+  width: 75%;
+  background-color: darkviolet;
 }
 .mongodb {
-    width: 70%;
-    background-color: darkturquoise;
+  width: 70%;
+  background-color: darkturquoise;
 }
 .rating-bar {
-    padding: 3px;
+  padding: 3px;
 }
 .rating-bar span {
-    display: block;
-    height: 40px;
-    margin: 0px !important;
+  display: block;
+  height: 40px;
+  margin: 0px !important;
 }
 .rating-bar,
 .rating-bar span {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 /* .rate-n, n being the rating from 1 to 10 */
 .rate-1 {
-    width: 10%;
+  width: 10%;
 }
 .rate-2 {
-    width: 20%;
+  width: 20%;
 }
 .rate-3 {
-    width: 30%;
+  width: 30%;
 }
 .rate-4 {
-    width: 40%;
+  width: 40%;
 }
 .rate-5 {
-    width: 50%;
+  width: 50%;
 }
 .rate-6 {
-    width: 60%;
+  width: 60%;
 }
 .rate-7 {
-    width: 70%;
+  width: 70%;
 }
 .rate-8 {
-    width: 80%;
+  width: 80%;
 }
 .rate-9 {
-    width: 90%;
+  width: 90%;
 }
 .rate-10 {
-    width: 100%;
+  width: 100%;
 }
 
 /* CSS3 Animation */
 .animate {
-    animation-delay: 5s !important;
-    animation: progress 2s linear;
-    -moz-animation: progress 2s linear;
-    -webkit-animation: progress 2s linear;
-    -ms-animation: progress 2s linear;
-    -o-animation: progress 2s linear;
+  animation-delay: 5s !important;
+  animation: progress 2s linear;
+  -moz-animation: progress 2s linear;
+  -webkit-animation: progress 2s linear;
+  -ms-animation: progress 2s linear;
+  -o-animation: progress 2s linear;
 }
 /* Span fills 100% of parent div (.rate-n) which may be 10-100% of the width of black bar (.rating) */
 @-webkit-keyframes progress {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 @-moz-keyframes progress {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 @-ms-keyframes progress {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 @-o-keyframes progress {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 @keyframes progress {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 .skills-rating-block {
-    margin: 20px;
-    width: 100% !important;
+  margin: 20px;
+  width: 100% !important;
 }
 .rate-block {
-    margin: 20px;
+  margin: 20px;
 }
 .skill-head {
-    font-family: 'Sigmar One', cursive;
-    color: black;
+  font-family: "Sigmar One", cursive;
+  color: black;
 }
 .nav-link {
-    font-size: larger !important;
-    /* color: black !important; */
+  font-size: larger !important;
+  /* color: black !important; */
 }
 .dropdown-item {
-    font-size: 30px !important;
+  font-size: 30px !important;
 }
 .dropdown-item {
-    color: white !important;
+  color: white !important;
 }
 .dropdown-menu {
-    background-color: black !important;
+  background-color: black !important;
 }
 .dropdown-item:hover {
-    color: black !important;
-    font-family: 'Sigmar One', cursive;
+  color: black !important;
+  font-family: "Sigmar One", cursive;
 }
 .nav-link.scrolled {
-    color: white !important;
-    transition: color 500ms linear;
+  color: white !important;
+  transition: color 500ms linear;
 }
 .btn-dark {
-    background-color: black !important;
-    font-size: 25px !important;
+  background-color: black !important;
+  font-size: 25px !important;
 }
 .body1.scrolled {
-    background-color: yellow !important;
-    transition: background-color 200ms linear;
+  background-color: yellow !important;
+  transition: background-color 200ms linear;
 }
 .onlytotargetbody {
-    display: none;
+  display: none;
 }
 .about.scrolled {
-    background-color: cyan !important;
-    transition: background-color 2000ms linear;
+  background-color: cyan !important;
+  transition: background-color 2000ms linear;
 }
 .onlytotargetabout {
-    display: none;
-    height: 80vh;
+  display: none;
+  height: 80vh;
 }
 .about-text.scrolled {
-    color: black !important;
-    transition: color 2000ms linear;
+  color: black !important;
+  transition: color 2000ms linear;
 }
 body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* Preloader */
 
 #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    /* change if the mask should have another color then white */
-    z-index: 99;
-    /* makes sure it stays on top */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #status {
-    position: absolute;
-    /* centers the loading animation horizontally one the screen */
-    /* centers the loading animation vertically one the screen */
-    background-image: url('./Images/loader7.gif');
-    /* path to your loading animation */
-    background-repeat: no-repeat;
-    background-position: center;
-    /* is width and height divided by two */
-    /* The image used */
-    /* Full height */
-    height: 70%;
-    width: 70%;
+  position: absolute;
+  /* centers the loading animation horizontally one the screen */
+  /* centers the loading animation vertically one the screen */
+  background-image: url("./Images/loader7.gif");
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* is width and height divided by two */
+  /* The image used */
+  /* Full height */
+  height: 70%;
+  width: 70%;
 
-    /* Center and scale the image nicely */
-    background-size: cover;
-    overflow: hidden;
+  /* Center and scale the image nicely */
+  background-size: cover;
+  overflow: hidden;
 }
 #navbar-on-top {
-    display: none;
-    justify-content: center;
+  display: none;
+  justify-content: center;
 }
 .preloader-content {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .preloader-text {
-    display: none;
-    font-size: 20px;
-    font-family: 'Sigmar One', cursive;
-    z-index: 1000 !important;
-    color: white;
+  display: none;
+  font-size: 20px;
+  font-family: "Sigmar One", cursive;
+  z-index: 1000 !important;
+  color: white;
 }
 @media screen and (orientation: landscape) {
-    .preloader-text {
-        display: flex;
-        justify-content: center;
-    }
+  .preloader-text {
+    display: flex;
+    justify-content: center;
+  }
 }
 .here {
-    border-style: solid;
-    border-color: red;
-    border-width: 2px;
-    padding: 2px;
-    background-color: white;
-    color: black !important;
-    border-radius: 5px;
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  padding: 2px;
+  background-color: white;
+  color: black !important;
+  border-radius: 5px;
 }
 .here:hover {
-    color: red !important;
+  color: red !important;
 }
