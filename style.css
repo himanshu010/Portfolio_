@@ -9,7 +9,7 @@
 body {
   font-family: "Bradley Hand ITC", cursive;
   font-weight: bolder;
-  background-color: white;
+  background-color: goldenrod;
   /* background-image: url('Images/1.jpg'); */
   background-size: cover;
   width: 100%;
@@ -49,7 +49,7 @@ body {
 }
 .about {
   padding: 80px 40px;
-  background: rgb(0, 180, 255);
+  background: grey;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -65,16 +65,16 @@ body {
   padding: 0px 0px 20px 0px;
   color: white;
   width: 100%;
-  font-family: "Sigmar One", cursive;
+  font-family: "Montserrat";
 }
 
 .about-text {
   display: block;
   justify-content: center;
   align-items: center;
-  font-size: 70px;
+  font-size: 20px;
   color: white;
-  font-family: "Dancing Script", cursive;
+  font-family: Montserrat;
   font-weight: bolder;
   width: 100%;
 }
@@ -96,7 +96,7 @@ body {
   padding: 40px;
 }
 .my-work {
-  background: rgb(255, 65, 180);
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -205,7 +205,7 @@ a:hover {
   justify-content: space-between;
   bottom: 0px;
   width: 100%;
-  font-family: "Lato";
+  font-family: "Montserrat";
 }
 .footer1 {
   padding: 20px;
@@ -238,7 +238,7 @@ a:hover {
     font-size: 60px;
   }
   .about-text {
-    font-size: 60px;
+    font-size: 20px;
     padding: 15px;
   }
   .typewrite {
@@ -451,14 +451,14 @@ a:hover {
   font-size: 25px !important;
 }
 .body1.scrolled {
-  background-color: yellow !important;
+  background-color: grey !important;
   transition: background-color 200ms linear;
 }
 .onlytotargetbody {
   display: none;
 }
 .about.scrolled {
-  background-color: cyan !important;
+  background-color: black !important;
   transition: background-color 2000ms linear;
 }
 .onlytotargetabout {
@@ -466,7 +466,7 @@ a:hover {
   height: 80vh;
 }
 .about-text.scrolled {
-  color: black !important;
+  color: goldenrod !important;
   transition: color 2000ms linear;
 }
 body {
@@ -533,7 +533,7 @@ body {
 }
 .here {
   border-style: solid;
-  border-color: red;
+  border-color: goldenrod;
   border-width: 2px;
   padding: 2px;
   background-color: white;
@@ -541,5 +541,17 @@ body {
   border-radius: 5px;
 }
 .here:hover {
-  color: red !important;
+  color: goldenrod !important;
+}
+.fnt-w {
+  color: white;
+}
+.bg-b {
+  background-color: black;
+}
+.bg-gr {
+  background-color: grey;
+}
+.fnt-y {
+  color: y;
 }
