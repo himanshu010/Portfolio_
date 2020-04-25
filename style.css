@@ -481,7 +481,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: black;
+  background-color: #262626;
+  /* background-color: #1a303d; */
   /* change if the mask should have another color then white */
   z-index: 99;
   /* makes sure it stays on top */
@@ -494,15 +495,15 @@ body {
   position: absolute;
   /* centers the loading animation horizontally one the screen */
   /* centers the loading animation vertically one the screen */
-  background-image: url("./Images/loader7.gif");
+  background-image: url("./Images/loader3.gif");
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
   /* is width and height divided by two */
   /* The image used */
   /* Full height */
-  height: 70%;
-  width: 70%;
+  height: 100px;
+  width: 100px;
 
   /* Center and scale the image nicely */
   background-size: cover;
