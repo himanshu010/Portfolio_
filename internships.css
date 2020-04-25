@@ -1,12 +1,13 @@
 body {
-  background-image: url("http://ramonmr.com/wp-content/uploads/2015/05/Google-Material-Design-Wallpaper.jpg");
+  background-color: black;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  color: goldenrod;
 }
 .table-head {
   font-size: 40px;
-  font-family: "Sigmar One", cursive;
+  font-family: Montserrat !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +15,7 @@ body {
   width: 100%;
 }
 .title {
-  font-family: "Shadows Into Light", cursive;
+  font-family: Montserrat;
   font-size: 60px;
   min-width: 100%;
   padding: 20px;
@@ -24,7 +25,7 @@ body {
   align-items: center;
 }
 .content {
-  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat";
   font-size: 25px;
   display: flex;
   justify-content: center;
