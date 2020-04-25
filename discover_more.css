@@ -3,8 +3,7 @@ body {
   color: #444;
   overflow: hidden;
   font: 300 16px/18px Roboto, sans-serif;
-  background: url(http://ramonmr.com/wp-content/uploads/2015/05/Google-Material-Design-Wallpaper.jpg)
-    #031b21 no-repeat center fixed;
+  background: black no-repeat center fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
