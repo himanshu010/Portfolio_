@@ -7,7 +7,7 @@
   height: 100vh;
 }
 body {
-  font-family: "Bradley Hand ITC", cursive;
+  font-family: "Montserrat";
   font-weight: bolder;
   background-color: goldenrod;
   /* background-image: url('Images/1.jpg'); */
@@ -46,6 +46,8 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  font-size: 2px !important;
+  font-family: "Montserrat";
 }
 .about {
   padding: 80px 40px;
@@ -554,5 +556,5 @@ body {
   background-color: grey;
 }
 .fnt-y {
-  color: y;
+  color: goldenrod;
 }
